@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3493448275">
+  <component name="DataSourceManagerImpl" format="xml" hash="2705786285">
     <data-source source="LOCAL" name="Rails demo_app2: test" uuid="b51bd4f7-c554-49a8-a798-a33a369f0ffd">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
@@ -13,6 +13,12 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/demo_app2_production</jdbc-url>
       <user-name>root</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails demo_app2: development" uuid="00528a4b-9250-41e4-9312-ce0f8b74974e">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\jorge.roccatagliata\RubymineProjects\demo_app2\demo_app2_development</jdbc-url>
       <libraries />
     </data-source>
   </component>
